@@ -5,5 +5,4 @@ const insertFake = () => {
   return dbConnection
     .query(sql)
 }
-insertFake();
-module.exports =insertFake;
+module.exports ={ insertFake }

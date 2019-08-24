@@ -8,4 +8,4 @@ const addCity = (body) =>{
           values:[name,city]
           })
 }
-module.exports = addCity;
+module.exports = { addCity }
