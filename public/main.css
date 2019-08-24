@@ -63,3 +63,17 @@ table tr td {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.delete{
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: salmon;
+  color: white;
+  padding: 10px;
+  display: block;
+  border-style: initial;
+  font-size: 18px;
+}
+.delete:hover{
+  background: red;
+  transition: all 500ms ease; 
+}
