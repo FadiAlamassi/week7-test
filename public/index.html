@@ -15,8 +15,8 @@
       </div>
     </nav>
     <form class="form" action="/add-city" method="post">
-      <input type="text" name="name" value="" placeholder="name" />
-      <input type="text" name="city" value="" placeholder="city" />
+      <input type="text" name="name" value="" placeholder="name" required/>
+      <input type="text" name="city" value="" placeholder="city" required/>
       <button type="submit" name="button">+ Add city</button>
     </form>
     <div class="table-container">
@@ -24,6 +24,7 @@
         <tr>
           <th>Name</th>
           <th>City</th>
+          <th>Delete</th>
         </tr>
       </table>
     </div>
