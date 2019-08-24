@@ -1,4 +1,4 @@
-const getCities = require('../database/queries/getCities');
+const { getCities } = require('../database/queries/getCities');
 
 exports.cities = (req, res,next) => {
 getCities()
