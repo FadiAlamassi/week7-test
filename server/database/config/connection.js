@@ -10,6 +10,7 @@ let dbUrl =  process.env.DATABASE_URL;
 //   dbUrl = process.env.DATABASE_URL;
 // }
 
+
 if (!dbUrl) {
   throw new Error('Enviroment variable DB_URL must be set');
 }
